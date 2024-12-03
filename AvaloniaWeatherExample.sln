@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastRestAPI", "WeatherForecastRestAPI\WeatherForecastRestAPI.csproj", "{74907035-723A-4FB3-9CAC-A51CFC4887BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AvaloniaWeatherTracker", "AvaloniaWeatherTracker", "{F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWeatherTracker", "AvaloniaWeatherTracker\AvaloniaWeatherTracker\AvaloniaWeatherTracker.csproj", "{7B6D90D7-CAFC-487E-BF27-8FBB70ECAFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWeatherTracker.Android", "AvaloniaWeatherTracker\AvaloniaWeatherTracker.Android\AvaloniaWeatherTracker.Android.csproj", "{4241A9B7-E68C-4EBC-8E63-2BC4B8A5A6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWeatherTracker.Browser", "AvaloniaWeatherTracker\AvaloniaWeatherTracker.Browser\AvaloniaWeatherTracker.Browser.csproj", "{6833983E-7B43-44DF-A80D-8225EDEFA568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWeatherTracker.Desktop", "AvaloniaWeatherTracker\AvaloniaWeatherTracker.Desktop\AvaloniaWeatherTracker.Desktop.csproj", "{525951A0-D3D8-4EFF-9009-2F70400AD5F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaWeatherTracker.iOS", "AvaloniaWeatherTracker\AvaloniaWeatherTracker.iOS\AvaloniaWeatherTracker.iOS.csproj", "{A79A2B88-7E02-483D-A8BF-075D020C9EF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22D22333-7433-4C73-95DE-0EEFEDF1FDDC}"
+	ProjectSection(SolutionItems) = preProject
+		AvaloniaWeatherTracker\Directory.Build.props = AvaloniaWeatherTracker\Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74907035-723A-4FB3-9CAC-A51CFC4887BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74907035-723A-4FB3-9CAC-A51CFC4887BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74907035-723A-4FB3-9CAC-A51CFC4887BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74907035-723A-4FB3-9CAC-A51CFC4887BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6D90D7-CAFC-487E-BF27-8FBB70ECAFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6D90D7-CAFC-487E-BF27-8FBB70ECAFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6D90D7-CAFC-487E-BF27-8FBB70ECAFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6D90D7-CAFC-487E-BF27-8FBB70ECAFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4241A9B7-E68C-4EBC-8E63-2BC4B8A5A6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4241A9B7-E68C-4EBC-8E63-2BC4B8A5A6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4241A9B7-E68C-4EBC-8E63-2BC4B8A5A6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4241A9B7-E68C-4EBC-8E63-2BC4B8A5A6BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6833983E-7B43-44DF-A80D-8225EDEFA568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6833983E-7B43-44DF-A80D-8225EDEFA568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6833983E-7B43-44DF-A80D-8225EDEFA568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6833983E-7B43-44DF-A80D-8225EDEFA568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525951A0-D3D8-4EFF-9009-2F70400AD5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525951A0-D3D8-4EFF-9009-2F70400AD5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525951A0-D3D8-4EFF-9009-2F70400AD5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525951A0-D3D8-4EFF-9009-2F70400AD5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79A2B88-7E02-483D-A8BF-075D020C9EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79A2B88-7E02-483D-A8BF-075D020C9EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79A2B88-7E02-483D-A8BF-075D020C9EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79A2B88-7E02-483D-A8BF-075D020C9EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B6D90D7-CAFC-487E-BF27-8FBB70ECAFF3} = {F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}
+		{4241A9B7-E68C-4EBC-8E63-2BC4B8A5A6BA} = {F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}
+		{6833983E-7B43-44DF-A80D-8225EDEFA568} = {F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}
+		{525951A0-D3D8-4EFF-9009-2F70400AD5F2} = {F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}
+		{A79A2B88-7E02-483D-A8BF-075D020C9EF7} = {F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}
+		{22D22333-7433-4C73-95DE-0EEFEDF1FDDC} = {F8C24C68-AEF8-4AE0-AD06-A99578A55CA3}
+	EndGlobalSection
+EndGlobal

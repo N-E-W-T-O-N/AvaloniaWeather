@@ -1,0 +1,6 @@
+[submodule "AvaloniaWeatherTracker"]
+	path = AvaloniaWeatherTracker
+	url = https://github.com/leofox2021/AvaloniaWeatherTracker
+[submodule "WeatherForecastRestAPI"]
+	path = WeatherForecastRestAPI
+	url = https://github.com/leofox2021/WeatherForecastRestAPI.git
